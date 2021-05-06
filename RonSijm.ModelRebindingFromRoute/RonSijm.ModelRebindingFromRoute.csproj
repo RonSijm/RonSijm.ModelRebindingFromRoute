@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>RonSijm</Authors>
+    <Description>Rebinds route variables into your model</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/RonSijm/RonSijm.ModelRebindingFromRoute</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RonSijm/RonSijm.ModelRebindingFromRoute</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>modelbinder, IModelBinderProvider, FromRoute</PackageTags>
+    <PackageReleaseNotes>Rebinds route variables into your model</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
